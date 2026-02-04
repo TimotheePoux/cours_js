@@ -1,3 +1,4 @@
+/*
 let tabJours = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
 let tabMois = ["Janvier, Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"]
 let maDateV1 = {
@@ -21,3 +22,8 @@ nbr2++;
 console.log(nbr2);
 
 console.log(nbr4/nbr1, nbr4%nbr1);
+*/
+
+let nomSerie = prompt("Quelle est ta série préférée ?");
+let nomPerso  = prompt("Quel est ton personnage préférée ?");
+alert("Ma série préférée est " + nomSerie + " et mon personnage est " + nomPerso + " !");
