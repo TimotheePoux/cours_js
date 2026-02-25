@@ -22,6 +22,6 @@ while(toAdd<nb){
 console.log(result);
 
 let tab = ["Axel", "Bako Ebeleh", "maaeeel", "(●'◡'●)", "C4tb0y4ev3r", "Cacaramouille", "Clemy", "firix le caillou", "isa", "Lauraaaaaa"];
-for(let i = 0; i<tab.length; i++){
-    console.log(tab[i]);
+for(const val of tab){
+    console.log(val);
 }
