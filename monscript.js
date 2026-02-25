@@ -18,5 +18,10 @@ let result = 0;
 while(toAdd<nb){
     toAdd++;
     result+=toAdd;
-}
+}   
 console.log(result);
+
+let tab = ["Axel", "Bako Ebeleh", "maaeeel", "(●'◡'●)", "C4tb0y4ev3r", "Cacaramouille", "Clemy", "firix le caillou", "isa", "Lauraaaaaa"];
+for(let i = 0; i<tab.length; i++){
+    console.log(tab[i]);
+}
