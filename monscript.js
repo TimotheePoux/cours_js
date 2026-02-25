@@ -1,30 +1,22 @@
 /*
-let number = 5;
-let text = '5';
-let isRainingToday = false;
-
-console.log(number == text);
-console.log(number === text);
-if (isRainingToday) console.log("Where is my Umbrella ?");
+let toAdd = 0;
+let result = 0;
+while(toAdd<100){
+    toAdd++;
+    result+=toAdd;
+}
+console.log(result);
 */
 
-let ageUser = prompt("T'as quel âge ?") //Demande à l'utilisateur quel âge il a
+let nb = 0;
+do{
+    nb = prompt("Saisir un nombre entre 1 et 100");
+}while(nb<1 || nb>100);
 
-if (ageUser < 0){ //Vérifie si l'âge de l'utilisateur est négatif
-    console.log("Je te crois pas");    
+let toAdd = 0;
+let result = 0;
+while(toAdd<nb){
+    toAdd++;
+    result+=toAdd;
 }
-else if (ageUser == 18){
-    console.log("L’utilisateur a ", ageUser," an(s),il vient d’être majeur");
-}
-else if (ageUser == 25){
-    console.log("L’utilisateur a ", ageUser," an(s),il vient d’être majeur");
-}
-else if (ageUser < 18){ //Vérifie si l'âge de l'utilisateur est inférieur à 18
-    console.log("L’utilisateur a ", ageUser," an(s), il est mineur!");
-}
-else if (ageUser > 62){ //Vérifie si l'âge de l'utilisateur est supérieur à 62
-    console.log("L’utilisateur a ", ageUser ," an(s), il est majeur mais aussi retraité !!")
-}
-else{ 
-    console.log("L’utilisateur a ", ageUser," an(s), il est majeur!");
-}
+console.log(result);
